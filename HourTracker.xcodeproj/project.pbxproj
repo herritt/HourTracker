@@ -1,0 +1,366 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2503F1951C41821000ACA709 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2503F1941C41821000ACA709 /* main.m */; };
+		2503F1981C41821000ACA709 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2503F1971C41821000ACA709 /* AppDelegate.m */; };
+		2503F19B1C41821000ACA709 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2503F19A1C41821000ACA709 /* ViewController.m */; };
+		2503F19E1C41821000ACA709 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2503F19C1C41821000ACA709 /* Main.storyboard */; };
+		2503F1A11C41821000ACA709 /* HourTracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2503F19F1C41821000ACA709 /* HourTracker.xcdatamodeld */; };
+		2503F1A61C41821000ACA709 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2503F1A41C41821000ACA709 /* LaunchScreen.storyboard */; };
+		2503F1AF1C419DFD00ACA709 /* RecordHoursViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2503F1AE1C419DFD00ACA709 /* RecordHoursViewController.m */; };
+		2503F1B11C41D3D900ACA709 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2503F1B01C41D3D900ACA709 /* libsqlite3.0.tbd */; };
+		2503F1B41C41D43100ACA709 /* HourData.m in Sources */ = {isa = PBXBuildFile; fileRef = 2503F1B31C41D43100ACA709 /* HourData.m */; };
+		253C9ADC1C47533200A44648 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 253C9ADB1C47533200A44648 /* MessageUI.framework */; };
+		253C9AE21C486B3600A44648 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 253C9AE11C486B3600A44648 /* Images.xcassets */; };
+		253C9AE41C486B8900A44648 /* icon60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 253C9AE31C486B8900A44648 /* icon60@2x.png */; };
+		253CE6F31C4228A50027A1B9 /* SavedData.m in Sources */ = {isa = PBXBuildFile; fileRef = 253CE6F21C4228A50027A1B9 /* SavedData.m */; };
+		253CE6FC1C4740260027A1B9 /* HistoryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 253CE6FB1C4740260027A1B9 /* HistoryTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2503F1901C41821000ACA709 /* HourTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HourTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2503F1941C41821000ACA709 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2503F1961C41821000ACA709 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2503F1971C41821000ACA709 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2503F1991C41821000ACA709 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2503F19A1C41821000ACA709 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2503F19D1C41821000ACA709 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2503F1A01C41821000ACA709 /* HourTracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HourTracker.xcdatamodel; sourceTree = "<group>"; };
+		2503F1A51C41821000ACA709 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2503F1A71C41821000ACA709 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2503F1AD1C419DFD00ACA709 /* RecordHoursViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RecordHoursViewController.h; path = ../RecordHoursViewController.h; sourceTree = "<group>"; };
+		2503F1AE1C419DFD00ACA709 /* RecordHoursViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RecordHoursViewController.m; path = ../RecordHoursViewController.m; sourceTree = "<group>"; };
+		2503F1B01C41D3D900ACA709 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		2503F1B21C41D43100ACA709 /* HourData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HourData.h; sourceTree = "<group>"; };
+		2503F1B31C41D43100ACA709 /* HourData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HourData.m; sourceTree = "<group>"; };
+		253C9ADB1C47533200A44648 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		253C9AE11C486B3600A44648 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		253C9AE31C486B8900A44648 /* icon60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon60@2x.png"; sourceTree = "<group>"; };
+		253CE6F11C4228A50027A1B9 /* SavedData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SavedData.h; sourceTree = "<group>"; };
+		253CE6F21C4228A50027A1B9 /* SavedData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SavedData.m; sourceTree = "<group>"; };
+		253CE6FA1C4740260027A1B9 /* HistoryTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryTableViewController.h; sourceTree = "<group>"; };
+		253CE6FB1C4740260027A1B9 /* HistoryTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2503F18D1C41820F00ACA709 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				253C9ADC1C47533200A44648 /* MessageUI.framework in Frameworks */,
+				2503F1B11C41D3D900ACA709 /* libsqlite3.0.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2503F1871C41820F00ACA709 = {
+			isa = PBXGroup;
+			children = (
+				253C9ADB1C47533200A44648 /* MessageUI.framework */,
+				2503F1B01C41D3D900ACA709 /* libsqlite3.0.tbd */,
+				2503F1921C41821000ACA709 /* HourTracker */,
+				2503F1911C41821000ACA709 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2503F1911C41821000ACA709 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2503F1901C41821000ACA709 /* HourTracker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2503F1921C41821000ACA709 /* HourTracker */ = {
+			isa = PBXGroup;
+			children = (
+				2503F1B21C41D43100ACA709 /* HourData.h */,
+				2503F1B31C41D43100ACA709 /* HourData.m */,
+				253CE6F11C4228A50027A1B9 /* SavedData.h */,
+				253CE6F21C4228A50027A1B9 /* SavedData.m */,
+				2503F1AD1C419DFD00ACA709 /* RecordHoursViewController.h */,
+				2503F1AE1C419DFD00ACA709 /* RecordHoursViewController.m */,
+				253CE6FA1C4740260027A1B9 /* HistoryTableViewController.h */,
+				253CE6FB1C4740260027A1B9 /* HistoryTableViewController.m */,
+				2503F1961C41821000ACA709 /* AppDelegate.h */,
+				2503F1971C41821000ACA709 /* AppDelegate.m */,
+				2503F1991C41821000ACA709 /* ViewController.h */,
+				2503F19A1C41821000ACA709 /* ViewController.m */,
+				2503F19C1C41821000ACA709 /* Main.storyboard */,
+				2503F1A41C41821000ACA709 /* LaunchScreen.storyboard */,
+				2503F1A71C41821000ACA709 /* Info.plist */,
+				2503F19F1C41821000ACA709 /* HourTracker.xcdatamodeld */,
+				253C9AE11C486B3600A44648 /* Images.xcassets */,
+				253C9AE31C486B8900A44648 /* icon60@2x.png */,
+				2503F1931C41821000ACA709 /* Supporting Files */,
+			);
+			path = HourTracker;
+			sourceTree = "<group>";
+		};
+		2503F1931C41821000ACA709 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2503F1941C41821000ACA709 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2503F18F1C41820F00ACA709 /* HourTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2503F1AA1C41821000ACA709 /* Build configuration list for PBXNativeTarget "HourTracker" */;
+			buildPhases = (
+				2503F18C1C41820F00ACA709 /* Sources */,
+				2503F18D1C41820F00ACA709 /* Frameworks */,
+				2503F18E1C41820F00ACA709 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HourTracker;
+			productName = HourTracker;
+			productReference = 2503F1901C41821000ACA709 /* HourTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2503F1881C41820F00ACA709 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Randy Herritt";
+				TargetAttributes = {
+					2503F18F1C41820F00ACA709 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 6NE6UD8VPU;
+					};
+				};
+			};
+			buildConfigurationList = 2503F18B1C41820F00ACA709 /* Build configuration list for PBXProject "HourTracker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2503F1871C41820F00ACA709;
+			productRefGroup = 2503F1911C41821000ACA709 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2503F18F1C41820F00ACA709 /* HourTracker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2503F18E1C41820F00ACA709 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				253C9AE21C486B3600A44648 /* Images.xcassets in Resources */,
+				253C9AE41C486B8900A44648 /* icon60@2x.png in Resources */,
+				2503F1A61C41821000ACA709 /* LaunchScreen.storyboard in Resources */,
+				2503F19E1C41821000ACA709 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2503F18C1C41820F00ACA709 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				253CE6FC1C4740260027A1B9 /* HistoryTableViewController.m in Sources */,
+				2503F19B1C41821000ACA709 /* ViewController.m in Sources */,
+				2503F1981C41821000ACA709 /* AppDelegate.m in Sources */,
+				2503F1A11C41821000ACA709 /* HourTracker.xcdatamodeld in Sources */,
+				2503F1B41C41D43100ACA709 /* HourData.m in Sources */,
+				2503F1951C41821000ACA709 /* main.m in Sources */,
+				2503F1AF1C419DFD00ACA709 /* RecordHoursViewController.m in Sources */,
+				253CE6F31C4228A50027A1B9 /* SavedData.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2503F19C1C41821000ACA709 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2503F19D1C41821000ACA709 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2503F1A41C41821000ACA709 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2503F1A51C41821000ACA709 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2503F1A81C41821000ACA709 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2503F1A91C41821000ACA709 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2503F1AB1C41821000ACA709 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = HourTracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = randyherritt.HourTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		2503F1AC1C41821000ACA709 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = HourTracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = randyherritt.HourTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2503F18B1C41820F00ACA709 /* Build configuration list for PBXProject "HourTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2503F1A81C41821000ACA709 /* Debug */,
+				2503F1A91C41821000ACA709 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2503F1AA1C41821000ACA709 /* Build configuration list for PBXNativeTarget "HourTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2503F1AB1C41821000ACA709 /* Debug */,
+				2503F1AC1C41821000ACA709 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2503F19F1C41821000ACA709 /* HourTracker.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2503F1A01C41821000ACA709 /* HourTracker.xcdatamodel */,
+			);
+			currentVersion = 2503F1A01C41821000ACA709 /* HourTracker.xcdatamodel */;
+			path = HourTracker.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2503F1881C41820F00ACA709 /* Project object */;
+}
